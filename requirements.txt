@@ -1,0 +1,8 @@
+opencv-python
+easyocr
+imutils
+uuid
+ultralytics
+huggingface_hub
+git+https://github.com/THU-MIG/yolov10.git
+torchvision 
