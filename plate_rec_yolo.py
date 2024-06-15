@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 #img = model('images/test1.jpg')
 #img[0].show()
 
-license_dectector = YOLO('runs/detect/train9/weights/last.pt')
-original_image = Image.open('images/test1.jpg')
+license_dectector = YOLO('runs/detect/train10/weights/last.pt')
+original_image = Image.open('images/test8.jpg')
 
 plate = license_dectector(original_image)
 plate[0].show()
