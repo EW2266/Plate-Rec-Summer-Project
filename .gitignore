@@ -1,3 +1,4 @@
 datasets/
 yolov10n.pt
 yolov8n.pt
+tesseract_training/

@@ -18,13 +18,8 @@ print(plate)
 
 # Iterate over detected bounding boxes and crop the image
 for i, box in enumerate(plate[0].boxes):
-    # Extract bounding box coordinates (x1, y1, x2, y2)
-    x1, y1, x2, y2 = box.xyxy[0]
-    
-    # Convert coordinates to integers
+    x1, y1, x2, y2 = box.xyxy[0]  
     x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
-    
-    # Crop the image using the bounding box coordinates
     cropped_image = original_image.crop((x1, y1, x2, y2))
     
 
